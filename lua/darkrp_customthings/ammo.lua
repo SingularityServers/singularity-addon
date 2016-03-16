@@ -1,3 +1,4 @@
+#NoSimplerr#
 --[[---------------------------------------------------------------------------
 Ammo types
 ---------------------------------------------------------------------------
@@ -58,10 +59,93 @@ Example 3:
 
 DarkRP.createAmmoType("smg1", {
 	name = "Rifle ammo",
-	model = "models/Items/BoxMRounds.mdl",
+	model = "models/Items/BoxSRounds.mdl",
 	price = 80,
 	amountGiven = 30
 })
 
 Add new ammo types under the next line!
 ---------------------------------------------------------------------------]]
+DarkRP.createShipment("9x19mm (Shipment)", {
+	model = "models/Items/BoxSRounds.mdl",
+	entity = "fas2_ammo_9x19",
+	price = 1000,
+	amount = 10,
+	separate = false,
+	pricesep = nil,
+	noship = false,
+	allowed = {TEAM_GUN},
+	category = "Ammo",
+})
+
+DarkRP.createShipment("9x18mm (Shipment)", {
+	model = "models/Items/BoxSRounds.mdl",
+	entity = "fas2_ammo_9x18",
+	price = 1000,
+	amount = 10,
+	separate = false,
+	pricesep = nil,
+	noship = false,
+	allowed = {TEAM_GUN},
+	category = "Ammo",
+})
+
+DarkRP.createShipment("556x45mm (Shipment)", {
+	model = "models/Items/BoxSRounds.mdl",
+	entity = "fas2_ammo_556x45",
+	price = 1000,
+	amount = 10,
+	separate = false,
+	pricesep = nil,
+	noship = false,
+	allowed = {TEAM_GUN},
+	category = "Ammo",
+})
+
+DarkRP.createShipment("7.62x39mm (Shipment)", {
+	model = "models/Items/BoxSRounds.mdl",
+	entity = "fas2_ammo_762x39",
+	price = 1000,
+	amount = 10,
+	separate = false,
+	pricesep = nil,
+	noship = false,
+	allowed = {TEAM_GUN},
+	category = "Ammo",
+})
+
+DarkRP.createShipment(".45ACP (Shipment)", {
+	model = "models/Items/BoxSRounds.mdl",
+	entity = "fas2_ammo_45acp",
+	price = 1000,
+	amount = 10,
+	separate = false,
+	pricesep = nil,
+	noship = false,
+	allowed = {TEAM_GUN},
+	category = "Ammo",
+})
+
+DarkRP.createShipment(".357SIG (Shipment)", {
+	model = "models/Items/BoxSRounds.mdl",
+	entity = "fas2_ammo_357sig",
+	price = 1000,
+	amount = 10,
+	separate = false,
+	pricesep = nil,
+	noship = false,
+	allowed = {TEAM_GUN},
+	category = "Ammo",
+})
+
+DarkRP.createShipment("12 Gauge (Shipment)", {
+	model = "models/Items/BoxSRounds.mdl",
+	entity = "fas2_ammo_12gauge",
+	price = 1000,
+	amount = 10,
+	separate = false,
+	pricesep = nil,
+	noship = false,
+	allowed = {TEAM_GUN},
+	category = "Ammo",
+})

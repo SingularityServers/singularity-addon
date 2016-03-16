@@ -35,3 +35,35 @@ DarkRP.createEntity("Suit Charger", {
 	allowed = {TEAM_MEDIC},
 	category = "Health and Armour",
 })
+
+DarkRP.createEntity("Bronze Money Printer", {
+    ent = "bronze_printer",
+    model = "models/props_c17/consolebox01a.mdl",
+    price = 1000,
+    max = 2,
+    cmd = "buybronzeprinter"
+})
+
+DarkRP.createEntity("Silver Money Printer", {
+    ent = "silver_printer",
+    model = "models/props_c17/consolebox01a.mdl",
+    price = 2000,
+    max = 2,
+    cmd = "buysilverprinter"
+})
+
+DarkRP.createEntity("Golden Money Printer", {
+    ent = "golden_printer",
+    model = "models/props_c17/consolebox01a.mdl",
+    price = 3500,
+    max = 2,
+    cmd = "buygoldprinter"
+})
+
+DarkRP.createEntity("Platinum Money printer", {
+    ent = "platinum_printer",
+    model = "models/props_c17/consolebox01a.mdl",
+    price = 6000,
+    max = 1,
+    cmd = "buyplatinumprinter"
+})

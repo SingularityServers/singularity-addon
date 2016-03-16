@@ -1,3 +1,4 @@
+#NoSimplerr#
 --[[---------------------------------------------------------------------------
 DarkRP disabled defaults
 ---------------------------------------------------------------------------
@@ -79,7 +80,7 @@ Entities
 DarkRP.disabledDefaults["entities"] = {
 	["Drug lab"]      = false,
 	["Gun lab"]       = false,
-	["Money printer"] = false,
+	["Money printer"] = true,
 	["Microwave"]     = false, --Hungermod only
 }
 
@@ -122,9 +123,9 @@ DarkRP.disabledDefaults["doorgroups"] = {
 Ammo packets
 ---------------------------------------------------------------------------]]
 DarkRP.disabledDefaults["ammo"] = {
-	["Pistol ammo"]  = false,
-	["Rifle ammo"]   = false,
-	["Shotgun ammo"] = false,
+	["Pistol ammo"]  = true,
+	["Rifle ammo"]   = true,
+	["Shotgun ammo"] = true,
 }
 
 --[[---------------------------------------------------------------------------

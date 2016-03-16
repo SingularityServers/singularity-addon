@@ -18,7 +18,7 @@ http://wiki.darkrp.com/index.php/DarkRP:CustomJobFields
 Add jobs under the following line:
 ---------------------------------------------------------------------------]]
 TEAM_CITIZEN = DarkRP.createJob("Citizen", {
-	color = Color(20, 150, 20, 255),
+    color = Color(92, 86, 67, 255),
 	model = {
 		"models/player/Group01/Male_04.mdl",
 		"models/player/Group01/Male_05.mdl",
@@ -438,7 +438,7 @@ TEAM_THIEF = DarkRP.createJob("Thief", {
 })
 
 TEAM_MEDIC = DarkRP.createJob("Medic", {
-    color = Color(47, 79, 79, 255),
+    color = Color(127, 255, 255, 255),
     model = "models/player/kleiner.mdl",
     description = [[With your medical knowledge you work to restore players to full health.
         Without a medic, people cannot be healed.

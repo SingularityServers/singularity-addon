@@ -1,3 +1,4 @@
+#NoSimplerr#
 --[[-------------------------------------------------------------------------
 DarkRP config settings.
 -----------------------------------------------------------------------------
@@ -32,7 +33,7 @@ GM.Config.allowvehicleowning            = true
 -- allowvnocollide - Enable/disable the ability to no-collide a vehicle (for security).
 GM.Config.allowvnocollide               = false
 -- alltalk - Enable for global chat, disable for local chat.
-GM.Config.alltalk                       = false
+GM.Config.alltalk                       = true
 -- autovehiclelock - Enable/Disable automatic locking of a vehicle when a player exits it.
 GM.Config.autovehiclelock               = false
 -- babygod - people spawn godded (prevent spawn killing).
@@ -223,7 +224,11 @@ GM.Config.minlotterycost                = 30
 -- Money packets will get removed if they don't get picked up after a while. Set to 0 to disable.
 GM.Config.moneyRemoveTime               = 600
 -- mprintamount - Value of the money printed by the money printer.
-GM.Config.mprintamount                  = 250
+GM.Config.mprintamount                  = 150
+GM.Config.bmprintamount                  = 250
+GM.Config.smprintamount                  = 400
+GM.Config.gmprintamount                  = 600
+GM.Config.pmprintamount                  = 850
 -- normalsalary - Sets the starting salary for newly joined players.
 GM.Config.normalsalary                  = 45
 -- npckillpay - Sets the money given for each NPC kill.
@@ -379,9 +384,9 @@ GM.Config.CategoryOverride = {
     },
     vehicles = {}, -- There are no default vehicles.
     ammo = {
-        ["Pistol ammo"]                         = "Other",
-        ["Shotgun ammo"]                        = "Other",
-        ["Rifle ammo"]                          = "Other",
+        ["Pistol ammo"]                         = "Ammo",
+        ["Shotgun ammo"]                        = "Ammo",
+        ["Rifle ammo"]                          = "Ammo",
     },
 }
 
@@ -409,6 +414,10 @@ GM.Config.PocketBlacklist = {
     ["path_"] = true,
     ["prop_physics"] = true,
     ["money_printer"] = true,
+    ["bronze_printer"] = true,
+    ["silver_printer"] = true,
+    ["golden_printer"] = true,
+    ["platinum_printer"] = true,
     ["gunlab"] = true,
     ["prop_dynamic"] = true,
     ["prop_vehicle_prisoner_pod"] = true,
@@ -495,6 +504,6 @@ GM.Config.hitCustomerCooldown = 240
 Hungermod module
 ---------------------------------------------------------------------------]]
 -- hungerspeed <Amount> - Set the rate at which players will become hungry (2 is the default).
-GM.Config.hungerspeed = 2
+GM.Config.hungerspeed = 1
 -- starverate <Amount> - How much health that is taken away every second the player is starving  (3 is the default).
 GM.Config.starverate = 3

@@ -1,3 +1,4 @@
+#NoSimplerr#
 /*---------------------------------------------------------------------------
 Custom Singularity HUD
 ---------------------------------------------------------------------------*/
@@ -542,7 +543,7 @@ function TestDrawHud()
 surface.SetFont("ChatFont")
 local w,h=surface.GetTextSize("http://singularityservers.com.au/")
         draw.WordBox( 3, 0, 0, "Singularity DarkRP (Development Server)","ChatFont",Color(0,0,0,0),Color(255,255,255,105))
-        draw.WordBox( 3, ScrW()-w, 0, "DarkRP Build - 5/3/2016","DefaultFixed",Color(0,0,0,0),Color(255,255,255,105))
+        draw.WordBox( 3, ScrW()-w, 0, "DarkRP Build - Development","DefaultFixed",Color(0,0,0,0),Color(255,255,255,105))
 end
 function DrawShitOver()
 surface.SetFont("DefaultFixed")
