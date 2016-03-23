@@ -289,6 +289,7 @@ DarkRP.createShipment("M21", {
 
 -- Shotguns --
 
+--[[----
 DarkRP.createShipment("KS-23", {
 	model = "models/weapons/world/shotguns/ks23.mdl",
 	entity = "fas2_ks23",
@@ -300,6 +301,7 @@ DarkRP.createShipment("KS-23", {
 	allowed = {TEAM_IADEALER},
 	category = "Shotguns",
 })
+----]]
 
 DarkRP.createShipment("Remington 870", {
 	model = "models/weapons/world/shotguns/ks23.mdl",
@@ -315,20 +317,23 @@ DarkRP.createShipment("Remington 870", {
 
 -- Equipment --
 
-DarkRP.createShipment("M67", {
+DarkRP.createShipment("M67 (x3)", {
 	model = "models/weapons/w_eq_fraggrenade.mdl",
 	entity = "fas2_m67",
-	price = 1200,
-	amount = 5,
+	price = 20000,
+	amount = 3,
 	separate = false,
 	pricesep = nil,
 	noship = false,
 	allowed = {TEAM_IADEALER},
 	category = "Explosives",
+	spareammo = 1,
+	clip1 = 1,
+	clip2 = 0
 })
 
 DarkRP.createShipment("Machete", {
-	model = "models/prop_lab/cleaver.mdl.mdl",
+	model = "models/weapons/w_knife_t.mdl",
 	entity = "fas2_machete",
 	price = 1280,
 	amount = 10,
@@ -381,7 +386,7 @@ DarkRP.createShipment("CompM4", {
 	model = "models/props_junk/cardboard_box004a.mdl",
 	entity = "fas2_att_compm4",
 	price = 100,
-	amount = 10,
+	amount = 1,
 	separate = false,
 	pricesep = nil,
 	noship = false,
@@ -393,7 +398,7 @@ DarkRP.createShipment("ECLAN C79", {
 	model = "models/props_junk/cardboard_box004a.mdl",
 	entity = "fas2_att_c79",
 	price = 120,
-	amount = 10,
+	amount = 1,
 	separate = false,
 	pricesep = nil,
 	noship = false,
@@ -405,7 +410,7 @@ DarkRP.createShipment("eotech Holo Sight", {
 	model = "models/props_junk/cardboard_box004a.mdl",
 	entity = "fas2_att_eotech",
 	price = 100,
-	amount = 10,
+	amount = 1,
 	separate = false,
 	pricesep = nil,
 	noship = false,
@@ -417,7 +422,7 @@ DarkRP.createShipment("Foregrip", {
 	model = "models/props_junk/cardboard_box004a.mdl",
 	entity = "fas2_att_foregrip",
 	price = 60,
-	amount = 10,
+	amount = 1,
 	separate = false,
 	pricesep = nil,
 	noship = false,
@@ -429,7 +434,7 @@ DarkRP.createShipment("M21 Extended Mag", {
 	model = "models/props_junk/cardboard_box004a.mdl",
 	entity = "fas2_att_m2120mag",
 	price = 180,
-	amount = 10,
+	amount = 1,
 	separate = false,
 	pricesep = nil,
 	noship = false,
@@ -441,7 +446,7 @@ DarkRP.createShipment("Russian PSO sight", {
 	model = "models/props_junk/cardboard_box004a.mdl",
 	entity = "fas2_att_pso1",
 	price = 100,
-	amount = 10,
+	amount = 1,
 	separate = false,
 	pricesep = nil,
 	noship = false,
@@ -453,7 +458,7 @@ DarkRP.createShipment("SG550 Extended Mag", {
 	model = "models/props_junk/cardboard_box004a.mdl",
 	entity = "fas2_att_sg55x30mag",
 	price = 160,
-	amount = 10,
+	amount = 1,
 	separate = false,
 	pricesep = nil,
 	noship = false,
@@ -465,7 +470,7 @@ DarkRP.createShipment("SKS Extended Mag", {
 	model = "models/props_junk/cardboard_box004a.mdl",
 	entity = "fas2_att_sks20mag",
 	price = 180,
-	amount = 10,
+	amount = 1,
 	separate = false,
 	pricesep = nil,
 	noship = false,
@@ -477,7 +482,7 @@ DarkRP.createShipment("SKS 30Rnd Mag", {
 	model = "models/props_junk/cardboard_box004a.mdl",
 	entity = "fas2_att_sks30mag",
 	price = 280,
-	amount = 10,
+	amount = 1,
 	separate = false,
 	pricesep = nil,
 	noship = false,
@@ -489,7 +494,7 @@ DarkRP.createShipment("Suppressor", {
 	model = "models/props_junk/cardboard_box004a.mdl",
 	entity = "fas2_att_suppressor",
 	price = 70,
-	amount = 10,
+	amount = 1,
 	separate = false,
 	pricesep = nil,
 	noship = false,

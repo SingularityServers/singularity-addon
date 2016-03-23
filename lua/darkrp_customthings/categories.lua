@@ -106,7 +106,16 @@ DarkRP.createCategory{
 }
 
 DarkRP.createCategory{
-    name = "Other",
+    name = "Shotguns",
+    categorises = "shipments",
+    startExpanded = true,
+    color = Color(92, 86, 67, 255),
+    canSee = fp{fn.Id, true},
+    sortOrder = 114,
+}
+
+DarkRP.createCategory{
+    name = "Sniper Rifles",
     categorises = "shipments",
     startExpanded = true,
     color = Color(92, 86, 67, 255),
@@ -115,12 +124,12 @@ DarkRP.createCategory{
 }
 
 DarkRP.createCategory{
-    name = "Shotguns",
+    name = "Other",
     categorises = "shipments",
     startExpanded = true,
     color = Color(92, 86, 67, 255),
     canSee = fp{fn.Id, true},
-    sortOrder = 114,
+    sortOrder = 115,
 }
 
 DarkRP.createCategory{

@@ -244,7 +244,7 @@ TEAM_POLICE = DarkRP.createJob("Civil Protection", {
 	
 	
 	Commands: /wanted <name> <reason>, unwanted <name>, /warrant <name> <reason>]],
-	weapons = {"arrest_stick", "unarrest_stick", "weapon_glock2", "stunstick", "door_ram", "weaponchecker"},
+	weapons = {"arrest_stick", "unarrest_stick", "fas2_p226", "stunstick", "door_ram", "weaponchecker"},
 	command = "cp",
 	max = 4,
 	salary = GAMEMODE.Config.normalsalary * 1.45,
@@ -291,7 +291,6 @@ TEAM_IADEALER = DarkRP.createJob("Illegal Arms Dealer", {
 	vote = false,
 	hasLicense = false,
     category = "Dealers",
-	NeedToChangeFrom = TEAM_GUN
 })
 
 TEAM_CHIEF = DarkRP.createJob("Civil Protection Chief", {
@@ -308,7 +307,7 @@ TEAM_CHIEF = DarkRP.createJob("Civil Protection Chief", {
 	any firearms without a license!
 	
 	Commands: /agenda, /wanted <name> <reason>, unwanted <name>, /warrant <name> <reason>]],
-	weapons = {"arrest_stick", "unarrest_stick", "weapon_deagle2", "stunstick", "door_ram", "weaponchecker"},
+	weapons = {"arrest_stick", "unarrest_stick", "fas2_deagle", "stunstick", "door_ram", "weaponchecker"},
 	command = "chief",
 	max = 1,
 	salary = GAMEMODE.Config.normalsalary * 1.67,
@@ -392,7 +391,7 @@ TEAM_HITMAN = DarkRP.createJob("HitMan", {
 	Tip: Advertise your business to local gangs, offering to assasinate their leaders.
 	
 	Commands: /hitprice <price>]],
-	weapons = {"weapon_mad_usp", "weapon_mad_knife"},
+	weapons = {"fas2_p226", "fas2_dv2", "lockpick", "keypad_cracker"},
 	command = "hitman",
 	max = 1,
 	salary = GAMEMODE.Config.normalsalary,
@@ -453,6 +452,22 @@ TEAM_MEDIC = DarkRP.createJob("Medic", {
     hasLicense = false,
     medic = true,
     category = "Other",
+})
+
+TEAM_COOK = DarkRP.createJob("Cook", {
+        color = Color(238, 99, 99, 255),
+        model = "models/player/mossman.mdl",
+        description = [[As a cook, it is your responsibility to feed the other members of your city.
+            You can spawn a microwave and sell the food you make:
+            /buymicrowave]],
+        weapons = {},
+        command = "cook",
+        max = 2,
+        salary = 45,
+        admin = 0,
+        vote = false,
+        hasLicense = false,
+        cook = true
 })
 
 --[[---------------------------------------------------------------------------

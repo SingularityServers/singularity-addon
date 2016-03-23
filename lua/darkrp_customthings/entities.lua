@@ -41,7 +41,8 @@ DarkRP.createEntity("Bronze Money Printer", {
     model = "models/props_c17/consolebox01a.mdl",
     price = 1000,
     max = 2,
-    cmd = "buybronzeprinter"
+    cmd = "buybronzeprinter",
+	sortOrder = 100
 })
 
 DarkRP.createEntity("Silver Money Printer", {
@@ -49,7 +50,8 @@ DarkRP.createEntity("Silver Money Printer", {
     model = "models/props_c17/consolebox01a.mdl",
     price = 2000,
     max = 2,
-    cmd = "buysilverprinter"
+    cmd = "buysilverprinter",
+	sortOrder = 101
 })
 
 DarkRP.createEntity("Golden Money Printer", {
@@ -57,7 +59,8 @@ DarkRP.createEntity("Golden Money Printer", {
     model = "models/props_c17/consolebox01a.mdl",
     price = 3500,
     max = 2,
-    cmd = "buygoldprinter"
+    cmd = "buygoldprinter",
+	sortOrder = 102
 })
 
 DarkRP.createEntity("Platinum Money printer", {
@@ -65,5 +68,6 @@ DarkRP.createEntity("Platinum Money printer", {
     model = "models/props_c17/consolebox01a.mdl",
     price = 6000,
     max = 1,
-    cmd = "buyplatinumprinter"
+    cmd = "buyplatinumprinter",
+	sortOrder = 103
 })
